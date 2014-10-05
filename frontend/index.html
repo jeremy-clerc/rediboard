@@ -59,7 +59,6 @@
 	</div>
 	<div class="panel panel-default" 
 		 ng-repeat="instance in filteredInstances = (instancesCtrl.instances | filter:searchText | orderBy:instancesCtrl.sortField)">
-{{filteredItems.length}}
 	  <!-- Default panel contents -->
 	  <div class="panel-heading">
 		<b>{{instance.vip}}:{{instance.port}} 
