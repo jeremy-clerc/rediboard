@@ -1,0 +1,15 @@
+{
+  "cache": {
+	"path": "./cache.json",
+	"expiration": "1h",
+	"refresh": "5m"
+  },
+  "connection_timeout": "500ms",
+  "listen": "127.0.0.1:8080",
+  "instances": [{
+     "vip": "127.0.0.1",
+     "port": "6379", 
+     "name": "Localhost",
+     "auth": "bla"
+  }]
+}
