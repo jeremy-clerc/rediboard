@@ -9,7 +9,7 @@
 # Description:       This file starts redis dashboard
 ### END INIT INFO
 
-# Author: Jeremy Clerc <jclerc@weborama.com>
+# Author: Jeremy Clerc <jeremy@clerc.io>
 
 # Do NOT "set -e"
 
