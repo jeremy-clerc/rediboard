@@ -77,3 +77,8 @@ go get github.com/jeremy-clerc/rediboard
 $GOPATH/bin/rediboard configuration.json
 ```
 
+If you want to use the provided init script (examples/rediboard_init), you need to create the rediboard user.
+
+```
+useradd -s /bin/nologin -r rediboard
+```
